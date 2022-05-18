@@ -5,6 +5,7 @@ import GlobalStyle from "./components/GlobalStyle";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import OurWork from "./pages/OurWork";
+import MovieDetail from "./pages/MovieDetails";
 //Import Components
 import Nav from "./components/Nav.js";
 //Router
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" exact element={<AboutUs />} />
         <Route path="/work" exact element={<OurWork />} />
         <Route path="/contact" exact element={<ContactUs />} />
+        <Route path="/work/:id" exact element={<MovieDetail />} />
       </Routes>
     </div>
   );

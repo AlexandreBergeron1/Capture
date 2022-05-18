@@ -7,6 +7,9 @@ import { About, Description, Image, Hide } from "../styles";
 const AboutSection = () => {
   return (
     <About>
+      <Image>
+        <img src={home1} alt="Guy with a camera" />
+      </Image>
       <Description>
         <div className="title">
           <Hide>
@@ -27,9 +30,6 @@ const AboutSection = () => {
         </p>
         <button>Contact Us</button>
       </Description>
-      <Image>
-        <img src={home1} alt="Guy with a camera" />
-      </Image>
     </About>
   );
 };

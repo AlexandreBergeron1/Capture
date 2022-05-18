@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const About = styled.div`
   min-height: 90vh;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5rem 10rem;
@@ -10,15 +9,22 @@ export const About = styled.div`
 `;
 
 export const Description = styled.div`
-  flex: 1;
   padding-right: 5rem;
+  padding-top: 5rem;
   h2 {
     font-weight: lighter;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
   }
 `;
 
 export const Image = styled.div`
-  flex: 1;
   overflow: hidden;
   img {
     width: 100%;

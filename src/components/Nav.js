@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-function Nav() {
+const Nav = () => {
   return (
     <StyledNav>
       <h1>
@@ -23,7 +23,7 @@ function Nav() {
       </ul>
     </StyledNav>
   );
-}
+};
 
 const StyledNav = styled.nav`
   min-height: 10vh;
